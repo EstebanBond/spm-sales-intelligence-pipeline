@@ -38,7 +38,7 @@ Instead of generic summaries, the pipeline uses a specialized system prompt to a
 ## 🚀 Live Demo
 The pipeline is exposed via a secure **Function URL**. You can trigger different market analysis reports by modifying the URL parameters:
 
-👉 **[[YOUR_LAMBDA_URL_HERE](https://govi7vlwvs2fohkk4ckcox2dvm0oudpj.lambda-url.us-east-1.on.aws/?sector=Energia&estado=Mexico)]?sector=Energia&estado=Mexico**
+👉 **[(https://govi7vlwvs2fohkk4ckcox2dvm0oudpj.lambda-url.us-east-1.on.aws/?sector=Energia&estado=Mexico)]**
 
 ---
 
