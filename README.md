@@ -1,4 +1,4 @@
-# 🚀 AWS Market Intelligence Pipeline (AI-Driven)
+# AWS Market Intelligence Pipeline (AI-Driven)
 
 Este proyecto demuestra un pipeline de datos End-to-End diseñado para la ingesta, filtrado y análisis
 de grandes volúmenes de datos económicos (INEGI DENUE - 460k+ registros). El sistema transforma datos crudos
@@ -9,7 +9,7 @@ utilizando Inteligencia Artificial Generativa.
 This project demonstrates an **end-to-end data pipeline** designed for the ingestion, filtering, and analysis of large-scale economic datasets (INEGI DENUE - 460k+ records). The system transforms raw cloud-stored data into **Strategic Insights** for **Sales Performance Management (SPM)** consulting by leveraging Generative Artificial Intelligence.
 
 
-## 🛠️ Architecture & Tech Stack
+## Architecture & Tech Stack
 * **Cloud Provider:** Amazon Web Services (AWS).
 * **Storage:** Amazon S3 (Data Lake / Raw Storage).
 * **Compute:** AWS Lambda (Serverless Python 3.13).
@@ -35,21 +35,21 @@ Instead of generic summaries, the pipeline uses a specialized system prompt to a
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 The pipeline is exposed via a secure **Function URL**. You can trigger different market analysis reports by modifying the URL parameters:
 
 **[(https://govi7vlwvs2fohkk4ckcox2dvm0oudpj.lambda-url.us-east-1.on.aws/?sector=Energia&estado=Mexico)]**
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 * `lambda_function.py`: Core logic for S3 streaming, data filtering, and Bedrock inference.
 * `upload_to_s3.py`: Local utility script for efficient data ingestion into AWS S3.
 * `.gitignore`: Configured to exclude large datasets (.csv) and virtual environments (.venv).
 
 ---
 
-🎯 About the Developer
+About the Developer
 **Esteban Rojano** *Data Architecture & AI Solutions Specialist* Focusing on transforming complex datasets into actionable business intelligence.
 
 Architecture follows IAM best practices (least privilege), uses environment variables
